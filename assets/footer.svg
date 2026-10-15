@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" role="img" aria-label="exit: thanks for visiting, stay secure">
+<title>exit: thanks for visiting, stay secure</title>
+<style>
+  text { font-family: 'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace; }
+  .fade { animation: fade .5s ease both; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  .rise { animation: rise .6s cubic-bezier(.2,.8,.2,1) both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  .ring { animation: ring 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes ring { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+  .blink { animation: blink 1.05s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#18222f" stroke-width="1" opacity=".55"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="12s" repeatCount="indefinite"/>
+  </pattern>
+  <radialGradient id="glowA" cx="0" cy="1" r="0.9"><stop offset="0" stop-color="#3dff9a" stop-opacity=".13"/><stop offset="1" stop-color="#3dff9a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#b18cff" stop-opacity=".13"/><stop offset="1" stop-color="#b18cff" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect width="1280" height="120" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1280" height="120" fill="#04060a"/>
+  <rect width="1280" height="120" fill="url(#grid)"/>
+  <rect width="1280" height="120" fill="url(#glowA)"/>
+  <rect width="1280" height="120" fill="url(#glowB)"/>
+</g>
+<rect x=".5" y=".5" width="1279" height="119" rx="14" fill="none" stroke="#253345"/>
+<path d="M10 24 V10 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M1270 24 V10 H1256" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M10 96 V110 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M1270 96 V110 H1256" stroke="#4d5b6c" stroke-width="2" fill="none"/>
+
+<defs><clipPath id="cmd"><rect x="0" y="30" height="40" width="360">
+  <animate attributeName="width" values="0;0;360;360" keyTimes="0;.15;.3;1" dur="10s" repeatCount="indefinite" calcMode="discrete"/></rect></clipPath></defs>
+<text x="40" y="56" font-size="16"><tspan fill="#4d5b6c">leo@leo-os</tspan><tspan fill="#253345">:</tspan><tspan fill="#6cc7ff">~</tspan><tspan fill="#4d5b6c">$ </tspan></text>
+<text x="168" y="56" font-size="16" fill="#e6edf3" clip-path="url(#cmd)">exit</text>
+<g><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.32;.34;.95;1" dur="10s" repeatCount="indefinite"/>
+  <text x="40" y="86" font-size="15" xml:space="preserve"><tspan fill="#3dff9a">▸ </tspan><tspan fill="#e6edf3">agent disconnected</tspan><tspan fill="#4d5b6c">  ·  thanks for visiting  ·  </tspan><tspan fill="#b18cff">stay secure.</tspan></text></g>
+<text x="1240" y="56" font-size="16" fill="#3dff9a" text-anchor="end" class="blink">▌</text>
+
+</svg>

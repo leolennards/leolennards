@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="168" viewBox="0 0 620 168" role="img" aria-label="ApexFitness: Android fitness tracking app built with Kotlin and Jetpack Compose.">
+<title>ApexFitness: Android fitness tracking app built with Kotlin and Jetpack Compose.</title>
+<style>
+  text { font-family: 'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace; }
+  .fade { animation: fade .5s ease both; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  .rise { animation: rise .6s cubic-bezier(.2,.8,.2,1) both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  .ring { animation: ring 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes ring { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+  .blink { animation: blink 1.05s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#18222f" stroke-width="1" opacity=".55"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="12s" repeatCount="indefinite"/>
+  </pattern>
+  <radialGradient id="glowA" cx="0" cy="1" r="0.9"><stop offset="0" stop-color="#3dff9a" stop-opacity=".13"/><stop offset="1" stop-color="#3dff9a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#b18cff" stop-opacity=".13"/><stop offset="1" stop-color="#b18cff" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect width="620" height="168" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="620" height="168" fill="#04060a"/>
+  <rect width="620" height="168" fill="url(#grid)"/>
+  <rect width="620" height="168" fill="url(#glowA)"/>
+  <rect width="620" height="168" fill="url(#glowB)"/>
+</g>
+<rect x=".5" y=".5" width="619" height="167" rx="12" fill="none" stroke="#253345"/>
+<path d="M10 24 V10 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M610 24 V10 H596" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M10 144 V158 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M610 144 V158 H596" stroke="#4d5b6c" stroke-width="2" fill="none"/>
+
+<defs><linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#6cc7ff" stop-opacity="0"/><stop offset=".5" stop-color="#6cc7ff" stop-opacity=".09"/><stop offset="1" stop-color="#6cc7ff" stop-opacity="0"/></linearGradient></defs>
+<rect y="0" width="140" height="168" fill="url(#scan)"><animate attributeName="x" from="-140" to="620" dur="5s" begin="2.1s" repeatCount="indefinite"/></rect>
+<g class="rise">
+  <text x="28" y="44" font-size="17"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">apexfitness</tspan></text>
+  <circle cx="519" cy="38" r="4.5" fill="#6cc7ff" class="ring"/>
+  <circle cx="519" cy="38" r="4.5" fill="#6cc7ff"/>
+  <text x="592" y="44" font-size="14" fill="#6cc7ff" text-anchor="end">shipped</text>
+  <text x="28" y="76" font-size="14" fill="#6cc7ff">ApexFitness</text>
+  <text x="28" y="102" font-size="13.5" fill="#8b98a8">Android fitness tracking app built with</text>
+  <text x="28" y="122" font-size="13.5" fill="#8b98a8">Kotlin and Jetpack Compose.</text>
+  <circle cx="34" cy="146" r="5" fill="#a97bff"/><text x="46" y="151" font-size="12.5" fill="#4d5b6c">Kotlin</text>
+  <text x="592" y="151" font-size="12.5" fill="#4d5b6c" text-anchor="end">open ↗</text>
+</g>
+</svg>

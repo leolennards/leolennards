@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="422" viewBox="0 0 1280 422" role="img" aria-label="systemctl status: Leo&#x27;s IT services, all running">
+<title>systemctl status: Leo&#x27;s IT services, all running</title>
+<style>
+  text { font-family: 'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace; }
+  .fade { animation: fade .5s ease both; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  .rise { animation: rise .6s cubic-bezier(.2,.8,.2,1) both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  .ring { animation: ring 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes ring { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+  .blink { animation: blink 1.05s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#18222f" stroke-width="1" opacity=".55"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="12s" repeatCount="indefinite"/>
+  </pattern>
+  <radialGradient id="glowA" cx="0" cy="1" r="0.9"><stop offset="0" stop-color="#3dff9a" stop-opacity=".13"/><stop offset="1" stop-color="#3dff9a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#b18cff" stop-opacity=".13"/><stop offset="1" stop-color="#b18cff" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect width="1280" height="422" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1280" height="422" fill="#04060a"/>
+  <rect width="1280" height="422" fill="url(#grid)"/>
+  <rect width="1280" height="422" fill="url(#glowA)"/>
+  <rect width="1280" height="422" fill="url(#glowB)"/>
+</g>
+<rect x=".5" y=".5" width="1279" height="421" rx="14" fill="none" stroke="#253345"/>
+<path d="M10 24 V10 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M1270 24 V10 H1256" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M10 398 V412 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M1270 398 V412 H1256" stroke="#4d5b6c" stroke-width="2" fill="none"/>
+<text x="40" y="52" font-size="16" class="fade"><tspan fill="#4d5b6c">leo@leo-os</tspan><tspan fill="#253345">:</tspan><tspan fill="#6cc7ff">~</tspan><tspan fill="#4d5b6c">$ </tspan><tspan fill="#e6edf3">systemctl status --all</tspan><tspan fill="#4d5b6c">   # 8 services · </tspan><tspan fill="#3dff9a">all running</tspan></text><g class="rise" style="animation-delay:0.30s">
+  <rect x="40" y="76" width="287" height="150" rx="10" fill="#0a0f16" fill-opacity=".9" stroke="#18222f"/>
+  <rect x="40" y="76" width="287" height="150" rx="10" fill="none" stroke="#3dff9a" stroke-opacity="0">
+    <animate attributeName="stroke-opacity" values="0;.55;0" dur="8s" begin="2s" repeatCount="indefinite"/></rect>
+  <text x="58" y="106" font-size="14"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">m365</tspan></text>
+  <circle cx="245" cy="101" r="4" fill="#3dff9a" class="ring" style="animation-delay:0.00s"/>
+  <circle cx="245" cy="101" r="4" fill="#3dff9a"/>
+  <text x="309" y="106" font-size="12.5" fill="#3dff9a" text-anchor="end">running</text>
+  <text x="58" y="136" font-size="14" fill="#6cc7ff">Microsoft 365 &amp; Entra ID</text>
+  <text x="58" y="160" font-size="12" fill="#8b98a8">Users, licensing, mailboxes and</text><text x="58" y="176" font-size="12" fill="#8b98a8">MFA across client tenants.</text>
+  <rect x="58" y="188" width="46" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="66" y="203" font-size="12" fill="#8b98a8">M365</text><rect x="110" y="188" width="77" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="118" y="203" font-size="12" fill="#8b98a8">Entra ID</text><rect x="193" y="188" width="39" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="201" y="203" font-size="12" fill="#8b98a8">MFA</text>
+</g><g class="rise" style="animation-delay:0.42s">
+  <rect x="343" y="76" width="287" height="150" rx="10" fill="#0a0f16" fill-opacity=".9" stroke="#18222f"/>
+  <rect x="343" y="76" width="287" height="150" rx="10" fill="none" stroke="#3dff9a" stroke-opacity="0">
+    <animate attributeName="stroke-opacity" values="0;.55;0" dur="8s" begin="3s" repeatCount="indefinite"/></rect>
+  <text x="361" y="106" font-size="14"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">ad</tspan></text>
+  <circle cx="548" cy="101" r="4" fill="#3dff9a" class="ring" style="animation-delay:0.25s"/>
+  <circle cx="548" cy="101" r="4" fill="#3dff9a"/>
+  <text x="612" y="106" font-size="12.5" fill="#3dff9a" text-anchor="end">running</text>
+  <text x="361" y="136" font-size="14" fill="#6cc7ff">Active Directory</text>
+  <text x="361" y="160" font-size="12" fill="#8b98a8">Accounts, resets, group</text><text x="361" y="176" font-size="12" fill="#8b98a8">membership and Group Policy.</text>
+  <rect x="361" y="188" width="54" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="369" y="203" font-size="12" fill="#8b98a8">AD DS</text><rect x="421" y="188" width="39" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="429" y="203" font-size="12" fill="#8b98a8">GPO</text>
+</g><g class="rise" style="animation-delay:0.54s">
+  <rect x="646" y="76" width="287" height="150" rx="10" fill="#0a0f16" fill-opacity=".9" stroke="#18222f"/>
+  <rect x="646" y="76" width="287" height="150" rx="10" fill="none" stroke="#3dff9a" stroke-opacity="0">
+    <animate attributeName="stroke-opacity" values="0;.55;0" dur="8s" begin="4s" repeatCount="indefinite"/></rect>
+  <text x="664" y="106" font-size="14"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">desktop</tspan></text>
+  <circle cx="851" cy="101" r="4" fill="#3dff9a" class="ring" style="animation-delay:0.50s"/>
+  <circle cx="851" cy="101" r="4" fill="#3dff9a"/>
+  <text x="915" y="106" font-size="12.5" fill="#3dff9a" text-anchor="end">running</text>
+  <text x="664" y="136" font-size="14" fill="#6cc7ff">Desktop Support</text>
+  <text x="664" y="160" font-size="12" fill="#8b98a8">Windows 10/11 and macOS end to</text><text x="664" y="176" font-size="12" fill="#8b98a8">end, printers, rebuilds.</text>
+  <rect x="664" y="188" width="69" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="672" y="203" font-size="12" fill="#8b98a8">Windows</text><rect x="739" y="188" width="54" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="747" y="203" font-size="12" fill="#8b98a8">macOS</text>
+</g><g class="rise" style="animation-delay:0.66s">
+  <rect x="949" y="76" width="287" height="150" rx="10" fill="#0a0f16" fill-opacity=".9" stroke="#18222f"/>
+  <rect x="949" y="76" width="287" height="150" rx="10" fill="none" stroke="#3dff9a" stroke-opacity="0">
+    <animate attributeName="stroke-opacity" values="0;.55;0" dur="8s" begin="5s" repeatCount="indefinite"/></rect>
+  <text x="967" y="106" font-size="14"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">desk</tspan></text>
+  <circle cx="1154" cy="101" r="4" fill="#3dff9a" class="ring" style="animation-delay:0.75s"/>
+  <circle cx="1154" cy="101" r="4" fill="#3dff9a"/>
+  <text x="1218" y="106" font-size="12.5" fill="#3dff9a" text-anchor="end">running</text>
+  <text x="967" y="136" font-size="14" fill="#6cc7ff">Remote Service Desk</text>
+  <text x="967" y="160" font-size="12" fill="#8b98a8">Triage, phone support, remote</text><text x="967" y="176" font-size="12" fill="#8b98a8">sessions, clear notes.</text>
+  <rect x="967" y="188" width="62" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="975" y="203" font-size="12" fill="#8b98a8">Triage</text><rect x="1035" y="188" width="62" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="1043" y="203" font-size="12" fill="#8b98a8">Remote</text>
+</g><g class="rise" style="animation-delay:0.78s">
+  <rect x="40" y="242" width="287" height="150" rx="10" fill="#0a0f16" fill-opacity=".9" stroke="#18222f"/>
+  <rect x="40" y="242" width="287" height="150" rx="10" fill="none" stroke="#3dff9a" stroke-opacity="0">
+    <animate attributeName="stroke-opacity" values="0;.55;0" dur="8s" begin="6s" repeatCount="indefinite"/></rect>
+  <text x="58" y="272" font-size="14"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">endpoint</tspan></text>
+  <circle cx="245" cy="267" r="4" fill="#3dff9a" class="ring" style="animation-delay:1.00s"/>
+  <circle cx="245" cy="267" r="4" fill="#3dff9a"/>
+  <text x="309" y="272" font-size="12.5" fill="#3dff9a" text-anchor="end">running</text>
+  <text x="58" y="302" font-size="14" fill="#6cc7ff">Endpoints &amp; Security</text>
+  <text x="58" y="326" font-size="12" fill="#8b98a8">ESET, full-disk encryption,</text><text x="58" y="342" font-size="12" fill="#8b98a8">NinjaOne RMM.</text>
+  <rect x="58" y="354" width="46" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="66" y="369" font-size="12" fill="#8b98a8">ESET</text><rect x="110" y="354" width="77" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="118" y="369" font-size="12" fill="#8b98a8">NinjaOne</text>
+</g><g class="rise" style="animation-delay:0.90s">
+  <rect x="343" y="242" width="287" height="150" rx="10" fill="#0a0f16" fill-opacity=".9" stroke="#18222f"/>
+  <rect x="343" y="242" width="287" height="150" rx="10" fill="none" stroke="#3dff9a" stroke-opacity="0">
+    <animate attributeName="stroke-opacity" values="0;.55;0" dur="8s" begin="7s" repeatCount="indefinite"/></rect>
+  <text x="361" y="272" font-size="14"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">network</tspan></text>
+  <circle cx="548" cy="267" r="4" fill="#3dff9a" class="ring" style="animation-delay:1.25s"/>
+  <circle cx="548" cy="267" r="4" fill="#3dff9a"/>
+  <text x="612" y="272" font-size="12.5" fill="#3dff9a" text-anchor="end">running</text>
+  <text x="361" y="302" font-size="14" fill="#6cc7ff">Networking</text>
+  <text x="361" y="326" font-size="12" fill="#8b98a8">From Wi-Fi to VoIP: TCP/IP, DNS,</text><text x="361" y="342" font-size="12" fill="#8b98a8">DHCP, LAN/WAN.</text>
+  <rect x="361" y="354" width="39" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="369" y="369" font-size="12" fill="#8b98a8">DNS</text><rect x="406" y="354" width="46" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="414" y="369" font-size="12" fill="#8b98a8">DHCP</text><rect x="458" y="354" width="46" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="466" y="369" font-size="12" fill="#8b98a8">VoIP</text>
+</g><g class="rise" style="animation-delay:1.02s">
+  <rect x="646" y="242" width="287" height="150" rx="10" fill="#0a0f16" fill-opacity=".9" stroke="#18222f"/>
+  <rect x="646" y="242" width="287" height="150" rx="10" fill="none" stroke="#3dff9a" stroke-opacity="0">
+    <animate attributeName="stroke-opacity" values="0;.55;0" dur="8s" begin="8s" repeatCount="indefinite"/></rect>
+  <text x="664" y="272" font-size="14"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">email</tspan></text>
+  <circle cx="851" cy="267" r="4" fill="#3dff9a" class="ring" style="animation-delay:1.50s"/>
+  <circle cx="851" cy="267" r="4" fill="#3dff9a"/>
+  <text x="915" y="272" font-size="12.5" fill="#3dff9a" text-anchor="end">running</text>
+  <text x="664" y="302" font-size="14" fill="#6cc7ff">Firewall &amp; Email Security</text>
+  <text x="664" y="326" font-size="12" fill="#8b98a8">Windows Firewall, WAF, Mimecast</text><text x="664" y="342" font-size="12" fill="#8b98a8">quarantine.</text>
+  <rect x="664" y="354" width="39" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="672" y="369" font-size="12" fill="#8b98a8">WAF</text><rect x="709" y="354" width="77" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="717" y="369" font-size="12" fill="#8b98a8">Mimecast</text>
+</g><g class="rise" style="animation-delay:1.14s">
+  <rect x="949" y="242" width="287" height="150" rx="10" fill="#0a0f16" fill-opacity=".9" stroke="#18222f"/>
+  <rect x="949" y="242" width="287" height="150" rx="10" fill="none" stroke="#3dff9a" stroke-opacity="0">
+    <animate attributeName="stroke-opacity" values="0;.55;0" dur="8s" begin="9s" repeatCount="indefinite"/></rect>
+  <text x="967" y="272" font-size="14"><tspan fill="#4d5b6c">svc/</tspan><tspan fill="#e6edf3" font-weight="700">server</tspan></text>
+  <circle cx="1154" cy="267" r="4" fill="#3dff9a" class="ring" style="animation-delay:1.75s"/>
+  <circle cx="1154" cy="267" r="4" fill="#3dff9a"/>
+  <text x="1218" y="272" font-size="12.5" fill="#3dff9a" text-anchor="end">running</text>
+  <text x="967" y="302" font-size="14" fill="#6cc7ff">Server Support</text>
+  <text x="967" y="326" font-size="12" fill="#8b98a8">Windows Server 2019 roles and</text><text x="967" y="342" font-size="12" fill="#8b98a8">PowerShell.</text>
+  <rect x="967" y="354" width="100" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="975" y="369" font-size="12" fill="#8b98a8">Server 2019</text><rect x="1073" y="354" width="92" height="22" rx="5" fill="#0e151f" stroke="#18222f"/><text x="1081" y="369" font-size="12" fill="#8b98a8">PowerShell</text>
+</g>
+</svg>

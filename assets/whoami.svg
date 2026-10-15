@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="372" viewBox="0 0 1280 372" role="img" aria-label="whoami: Leo Lennards, IT Support Technician in Cape Town">
+<title>whoami: Leo Lennards, IT Support Technician in Cape Town</title>
+<style>
+  text { font-family: 'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace; }
+  .fade { animation: fade .5s ease both; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  .rise { animation: rise .6s cubic-bezier(.2,.8,.2,1) both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  .ring { animation: ring 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes ring { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+  .blink { animation: blink 1.05s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#18222f" stroke-width="1" opacity=".55"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="12s" repeatCount="indefinite"/>
+  </pattern>
+  <radialGradient id="glowA" cx="0" cy="1" r="0.9"><stop offset="0" stop-color="#3dff9a" stop-opacity=".13"/><stop offset="1" stop-color="#3dff9a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#b18cff" stop-opacity=".13"/><stop offset="1" stop-color="#b18cff" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect width="1280" height="372" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1280" height="372" fill="#04060a"/>
+  <rect width="1280" height="372" fill="url(#grid)"/>
+  <rect width="1280" height="372" fill="url(#glowA)"/>
+  <rect width="1280" height="372" fill="url(#glowB)"/>
+</g>
+<rect x=".5" y=".5" width="1279" height="371" rx="14" fill="none" stroke="#253345"/>
+<path d="M10 24 V10 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M1270 24 V10 H1256" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M10 348 V362 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M1270 348 V362 H1256" stroke="#4d5b6c" stroke-width="2" fill="none"/>
+<text x="40" y="52" font-size="16" class="fade"><tspan fill="#4d5b6c">leo@leo-os</tspan><tspan fill="#253345">:</tspan><tspan fill="#6cc7ff">~</tspan><tspan fill="#4d5b6c">$ </tspan><tspan fill="#e6edf3">whoami --json</tspan></text><g class="fade" style="animation-delay:.4s"><rect x="40" y="72" width="1200" height="264" rx="10" fill="#0a0f16" fill-opacity=".85" stroke="#253345"/><text x="64" y="104" font-size="14" fill="#8b98a8">identity.json</text><text x="1216" y="104" font-size="14" text-anchor="end"><tspan fill="#3dff9a" class="pulse">●</tspan><tspan fill="#3dff9a"> verified</tspan></text><line x1="64" y1="118" x2="1216" y2="118" stroke="#18222f"/></g><g class="rise" style="animation-delay:0.80s"><text x="64" y="148" font-size="15" xml:space="preserve"><tspan fill="#4d5b6c">"role":</tspan><tspan x="210" fill="#e6edf3">"IT Support Technician @ Leftclick (Cape Town MSP)"</tspan></text></g><g class="rise" style="animation-delay:1.08s"><text x="64" y="174" font-size="15" xml:space="preserve"><tspan fill="#4d5b6c">"focus":</tspan><tspan x="210" fill="#e6edf3">"L1/L2 service desk · M365 &amp; Entra ID · AD · endpoint security"</tspan></text></g><g class="rise" style="animation-delay:1.36s"><text x="64" y="200" font-size="15" xml:space="preserve"><tspan fill="#4d5b6c">"degree":</tspan><tspan x="210" fill="#e6edf3">"BSc IT, Software Engineering · Golden Key (top 15%)"</tspan></text></g><g class="rise" style="animation-delay:1.64s"><text x="64" y="226" font-size="15" xml:space="preserve"><tspan fill="#4d5b6c">"studying":</tspan><tspan x="210" fill="#b18cff">"Postgrad IT: networks &amp; security, Zero Trust research"</tspan></text></g><g class="rise" style="animation-delay:1.92s"><text x="64" y="252" font-size="15" xml:space="preserve"><tspan fill="#4d5b6c">"certified":</tspan><tspan x="210" fill="#6cc7ff">"NinjaOne Certified Technician"</tspan></text></g><g class="rise" style="animation-delay:2.20s"><text x="64" y="278" font-size="15" xml:space="preserve"><tspan fill="#4d5b6c">"building":</tspan><tspan x="210" fill="#3dff9a">"Wordskiis (live word game) · StudyOS (AI study platform)"</tspan></text></g><g class="rise" style="animation-delay:2.48s"><text x="64" y="304" font-size="15" xml:space="preserve"><tspan fill="#4d5b6c">"status":</tspan><tspan x="210" fill="#3dff9a">"ONLINE · open to opportunities"</tspan></text></g><text x="1216" y="320" font-size="15" fill="#3dff9a" text-anchor="end" class="blink">▌</text>
+</svg>

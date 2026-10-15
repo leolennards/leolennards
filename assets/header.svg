@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="LEO//OS: Leo Lennards, IT Support &amp; Security, Cape Town">
+<title>LEO//OS: Leo Lennards, IT Support &amp; Security, Cape Town</title>
+<style>
+  text { font-family: 'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace; }
+  .fade { animation: fade .5s ease both; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  .rise { animation: rise .6s cubic-bezier(.2,.8,.2,1) both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  .ring { animation: ring 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes ring { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+  .blink { animation: blink 1.05s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+  .glitch { animation: fade .6s ease both, glitch 9s steps(1) 3s infinite; }
+  @keyframes glitch { 0%, 95%, 100% { transform: none; filter: none; }
+    95.5% { transform: translate(4px,-2px) skewX(-8deg); filter: drop-shadow(-4px 0 #ff5f6d) drop-shadow(4px 0 #6cc7ff); }
+    96.5% { transform: translate(-5px,1px); } 97.5% { transform: translate(2px,0) skewX(4deg); } }
+</style>
+
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#18222f" stroke-width="1" opacity=".55"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="12s" repeatCount="indefinite"/>
+  </pattern>
+  <radialGradient id="glowA" cx="0" cy="1" r="0.9"><stop offset="0" stop-color="#3dff9a" stop-opacity=".13"/><stop offset="1" stop-color="#3dff9a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#b18cff" stop-opacity=".13"/><stop offset="1" stop-color="#b18cff" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect width="1280" height="420" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1280" height="420" fill="#04060a"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <rect width="1280" height="420" fill="url(#glowA)"/>
+  <rect width="1280" height="420" fill="url(#glowB)"/>
+</g>
+<rect x=".5" y=".5" width="1279" height="419" rx="14" fill="none" stroke="#253345"/>
+<path d="M10 24 V10 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M1270 24 V10 H1256" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M10 396 V410 H24" stroke="#4d5b6c" stroke-width="2" fill="none"/><path d="M1270 396 V410 H1256" stroke="#4d5b6c" stroke-width="2" fill="none"/>
+
+<defs>
+  <linearGradient id="shine" x1="-0.6" y1="0" x2="0" y2="0" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    <animate attributeName="x1" values="-0.6;1.4;1.4" keyTimes="0;.35;1" dur="7s" begin="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;2;2" keyTimes="0;.35;1" dur="7s" begin="2.2s" repeatCount="indefinite"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="9"/></filter>
+  <clipPath id="type"><rect x="56" y="282" height="30" width="599">
+    <animate attributeName="width" dur="4.4s" begin="0s" fill="freeze" calcMode="discrete" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;17;34;51;68;85;102;119;136;153;171;188;205;222;239;256;273;290;307;324;342;359;376;393;410;427;444;461;478;495;513;530;547;564;581;598"/></rect></clipPath>
+</defs>
+<g class="fade" style="animation-delay:0.25s"><text x="56" y="64" font-size="15"><tspan fill="#253345">[</tspan><tspan fill="#3dff9a">  OK  </tspan><tspan fill="#253345">]</tspan><tspan fill="#4d5b6c"> started  </tspan><tspan fill="#8b98a8" xml:space="preserve"> identity.service</tspan></text></g><g class="fade" style="animation-delay:0.60s"><text x="56" y="88" font-size="15"><tspan fill="#253345">[</tspan><tspan fill="#3dff9a">  OK  </tspan><tspan fill="#253345">]</tspan><tspan fill="#4d5b6c"> started  </tspan><tspan fill="#8b98a8" xml:space="preserve"> network.target · online · CPT</tspan></text></g><g class="fade" style="animation-delay:0.95s"><text x="56" y="112" font-size="15"><tspan fill="#253345">[</tspan><tspan fill="#3dff9a">  OK  </tspan><tspan fill="#253345">]</tspan><tspan fill="#4d5b6c"> verified </tspan><tspan fill="#8b98a8" xml:space="preserve"> mfa.challenge</tspan></text></g><g class="fade" style="animation-delay:1.30s"><text x="56" y="136" font-size="15"><tspan fill="#253345">[</tspan><tspan fill="#3dff9a">  OK  </tspan><tspan fill="#253345">]</tspan><tspan fill="#4d5b6c"> reached  </tspan><tspan fill="#8b98a8" xml:space="preserve"> target leo-os.profile</tspan></text></g>
+<g class="glitch" style="animation-delay:1.5s">
+  <text x="52" y="248" font-size="104" font-weight="800" letter-spacing="-2" filter="url(#glow)" opacity=".45"><tspan fill="#3dff9a">LEO</tspan><tspan fill="#b18cff">//</tspan><tspan fill="#6cc7ff">OS</tspan></text>
+  <text x="52" y="248" font-size="104" font-weight="800" letter-spacing="-2"><tspan fill="#3dff9a">LEO</tspan><tspan fill="#b18cff">//</tspan><tspan fill="#6cc7ff">OS</tspan></text>
+  <text x="52" y="248" font-size="104" font-weight="800" letter-spacing="-2" fill="url(#shine)">LEO//OS</text>
+</g>
+<text x="56" y="302" font-size="18" clip-path="url(#type)" xml:space="preserve"><tspan fill="#4d5b6c">~$ </tspan><tspan fill="#8b98a8">I keep businesses online, secure and moving.</tspan><tspan fill="#3dff9a" class="blink">▌</tspan></text>
+<g class="fade" style="animation-delay:4.4s">
+  <circle cx="64" cy="340" r="6" fill="#3dff9a" class="ring"/><circle cx="64" cy="340" r="6" fill="#3dff9a"/>
+  <text x="80" y="346" font-size="16"><tspan fill="#8b98a8">STATUS: </tspan><tspan fill="#3dff9a" font-weight="700">ONLINE</tspan><tspan fill="#4d5b6c">  ·  Leo Lennards  ·  IT Support &amp; Security  ·  Cape Town, ZA</tspan></text>
+</g>
+
+<g class="fade" style="animation-delay:.3s">
+  <circle cx="1040" cy="214" r="150" fill="none" stroke="#253345" stroke-width="1.5"/><circle cx="1040" cy="214" r="112" fill="none" stroke="#18222f" stroke-width="1"/><circle cx="1040" cy="214" r="75" fill="none" stroke="#18222f" stroke-width="1"/><circle cx="1040" cy="214" r="38" fill="none" stroke="#18222f" stroke-width="1"/>
+  <line x1="876" y1="214" x2="1204" y2="214" stroke="#18222f"/>
+  <line x1="1040" y1="50" x2="1040" y2="378" stroke="#18222f"/>
+  <line x1="1175.0" y1="214.0" x2="1190.0" y2="214.0" stroke="#4d5b6c"/><line x1="1180.3" y1="238.7" x2="1187.7" y2="240.0" stroke="#253345"/><line x1="1173.9" y1="262.7" x2="1181.0" y2="265.3" stroke="#253345"/><line x1="1156.9" y1="281.5" x2="1169.9" y2="289.0" stroke="#4d5b6c"/><line x1="1149.2" y1="305.6" x2="1154.9" y2="310.4" stroke="#253345"/><line x1="1131.6" y1="323.2" x2="1136.4" y2="328.9" stroke="#253345"/><line x1="1107.5" y1="330.9" x2="1115.0" y2="343.9" stroke="#4d5b6c"/><line x1="1088.7" y1="347.9" x2="1091.3" y2="355.0" stroke="#253345"/><line x1="1064.7" y1="354.3" x2="1066.0" y2="361.7" stroke="#253345"/><line x1="1040.0" y1="349.0" x2="1040.0" y2="364.0" stroke="#4d5b6c"/><line x1="1015.3" y1="354.3" x2="1014.0" y2="361.7" stroke="#253345"/><line x1="991.3" y1="347.9" x2="988.7" y2="355.0" stroke="#253345"/><line x1="972.5" y1="330.9" x2="965.0" y2="343.9" stroke="#4d5b6c"/><line x1="948.4" y1="323.2" x2="943.6" y2="328.9" stroke="#253345"/><line x1="930.8" y1="305.6" x2="925.1" y2="310.4" stroke="#253345"/><line x1="923.1" y1="281.5" x2="910.1" y2="289.0" stroke="#4d5b6c"/><line x1="906.1" y1="262.7" x2="899.0" y2="265.3" stroke="#253345"/><line x1="899.7" y1="238.7" x2="892.3" y2="240.0" stroke="#253345"/><line x1="905.0" y1="214.0" x2="890.0" y2="214.0" stroke="#4d5b6c"/><line x1="899.7" y1="189.3" x2="892.3" y2="188.0" stroke="#253345"/><line x1="906.1" y1="165.3" x2="899.0" y2="162.7" stroke="#253345"/><line x1="923.1" y1="146.5" x2="910.1" y2="139.0" stroke="#4d5b6c"/><line x1="930.8" y1="122.4" x2="925.1" y2="117.6" stroke="#253345"/><line x1="948.4" y1="104.8" x2="943.6" y2="99.1" stroke="#253345"/><line x1="972.5" y1="97.1" x2="965.0" y2="84.1" stroke="#4d5b6c"/><line x1="991.3" y1="80.1" x2="988.7" y2="73.0" stroke="#253345"/><line x1="1015.3" y1="73.7" x2="1014.0" y2="66.3" stroke="#253345"/><line x1="1040.0" y1="79.0" x2="1040.0" y2="64.0" stroke="#4d5b6c"/><line x1="1064.7" y1="73.7" x2="1066.0" y2="66.3" stroke="#253345"/><line x1="1088.7" y1="80.1" x2="1091.3" y2="73.0" stroke="#253345"/><line x1="1107.5" y1="97.1" x2="1115.0" y2="84.1" stroke="#4d5b6c"/><line x1="1131.6" y1="104.8" x2="1136.4" y2="99.1" stroke="#253345"/><line x1="1149.2" y1="122.4" x2="1154.9" y2="117.6" stroke="#253345"/><line x1="1156.9" y1="146.5" x2="1169.9" y2="139.0" stroke="#4d5b6c"/><line x1="1173.9" y1="165.3" x2="1181.0" y2="162.7" stroke="#253345"/><line x1="1180.3" y1="189.3" x2="1187.7" y2="188.0" stroke="#253345"/>
+  <g><path d="M1040 214 L1190.0 214.0 A150 150 0 0 1 1189.6 224.5 Z" fill="#3dff9a" opacity="0.320"/><path d="M1040 214 L1189.6 203.5 A150 150 0 0 1 1190.0 214.0 Z" fill="#3dff9a" opacity="0.281"/><path d="M1040 214 L1188.5 193.1 A150 150 0 0 1 1189.6 203.5 Z" fill="#3dff9a" opacity="0.245"/><path d="M1040 214 L1186.7 182.8 A150 150 0 0 1 1188.5 193.1 Z" fill="#3dff9a" opacity="0.211"/><path d="M1040 214 L1184.2 172.7 A150 150 0 0 1 1186.7 182.8 Z" fill="#3dff9a" opacity="0.180"/><path d="M1040 214 L1181.0 162.7 A150 150 0 0 1 1184.2 172.7 Z" fill="#3dff9a" opacity="0.151"/><path d="M1040 214 L1177.0 153.0 A150 150 0 0 1 1181.0 162.7 Z" fill="#3dff9a" opacity="0.125"/><path d="M1040 214 L1172.4 143.6 A150 150 0 0 1 1177.0 153.0 Z" fill="#3dff9a" opacity="0.101"/><path d="M1040 214 L1167.2 134.5 A150 150 0 0 1 1172.4 143.6 Z" fill="#3dff9a" opacity="0.080"/><path d="M1040 214 L1161.4 125.8 A150 150 0 0 1 1167.2 134.5 Z" fill="#3dff9a" opacity="0.061"/><path d="M1040 214 L1154.9 117.6 A150 150 0 0 1 1161.4 125.8 Z" fill="#3dff9a" opacity="0.045"/><path d="M1040 214 L1147.9 109.8 A150 150 0 0 1 1154.9 117.6 Z" fill="#3dff9a" opacity="0.031"/><path d="M1040 214 L1140.4 102.5 A150 150 0 0 1 1147.9 109.8 Z" fill="#3dff9a" opacity="0.020"/><path d="M1040 214 L1132.3 95.8 A150 150 0 0 1 1140.4 102.5 Z" fill="#3dff9a" opacity="0.011"/><path d="M1040 214 L1123.9 89.6 A150 150 0 0 1 1132.3 95.8 Z" fill="#3dff9a" opacity="0.005"/><path d="M1040 214 L1115.0 84.1 A150 150 0 0 1 1123.9 89.6 Z" fill="#3dff9a" opacity="0.001"/><line x1="1040" y1="214" x2="1190" y2="214" stroke="#3dff9a" stroke-width="2"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 1040 214" to="360 1040 214" dur="4.0s" repeatCount="indefinite"/></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.04;1" dur="4.0s" begin="0.39s" repeatCount="indefinite"/><circle cx="1116.2" cy="267.3" r="14" fill="#3dff9a" opacity=".18"/><circle cx="1116.2" cy="267.3" r="4.5" fill="#3dff9a"/></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.04;1" dur="4.0s" begin="1.22s" repeatCount="indefinite"/><circle cx="1019.5" cy="270.4" r="14" fill="#6cc7ff" opacity=".18"/><circle cx="1019.5" cy="270.4" r="4.5" fill="#6cc7ff"/></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.04;1" dur="4.0s" begin="2.22s" repeatCount="indefinite"/><circle cx="934.3" cy="175.5" r="14" fill="#b18cff" opacity=".18"/><circle cx="934.3" cy="175.5" r="4.5" fill="#b18cff"/></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.04;1" dur="4.0s" begin="2.89s" repeatCount="indefinite"/><circle cx="1027.0" cy="140.1" r="14" fill="#6cc7ff" opacity=".18"/><circle cx="1027.0" cy="140.1" r="4.5" fill="#6cc7ff"/></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.04;1" dur="4.0s" begin="3.56s" repeatCount="indefinite"/><circle cx="1134.2" cy="134.9" r="14" fill="#ffb547" opacity=".18"/><circle cx="1134.2" cy="134.9" r="4.5" fill="#ffb547"/></g>
+  <circle cx="1040" cy="214" r="5" fill="#3dff9a"/>
+  <text x="1190" y="42" font-size="13" text-anchor="end"><tspan fill="#3dff9a">cape-town.za</tspan><tspan fill="#3dff9a" class="pulse"> ●</tspan><tspan fill="#3dff9a"> online</tspan></text>
+  <text x="890" y="400" font-size="12.5" fill="#4d5b6c">lat −33.89 · lon 18.56 · tz SAST (UTC+2)</text>
+</g>
+
+</svg>
