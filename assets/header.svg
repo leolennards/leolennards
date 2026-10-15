@@ -45,8 +45,8 @@
     <animate attributeName="x2" values="0;2;2" keyTimes="0;.35;1" dur="7s" begin="2.2s" repeatCount="indefinite"/>
   </linearGradient>
   <filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="9"/></filter>
-  <clipPath id="type"><rect x="56" y="282" height="30" width="599">
-    <animate attributeName="width" dur="4.4s" begin="0s" fill="freeze" calcMode="discrete" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;17;34;51;68;85;102;119;136;153;171;188;205;222;239;256;273;290;307;324;342;359;376;393;410;427;444;461;478;495;513;530;547;564;581;598"/></rect></clipPath>
+  <clipPath id="type"><rect x="56" y="282" height="30" width="667">
+    <animate attributeName="width" dur="4.4s" begin="0s" fill="freeze" calcMode="discrete" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;19;38;57;76;95;114;133;152;171;190;209;228;247;266;285;304;323;343;362;381;400;419;438;457;476;495;514;533;552;571;590;609;628;647;667"/></rect></clipPath>
 </defs>
 <g class="fade" style="animation-delay:0.25s"><text x="56" y="64" font-size="15"><tspan fill="#253345">[</tspan><tspan fill="#3dff9a">  OK  </tspan><tspan fill="#253345">]</tspan><tspan fill="#4d5b6c"> started  </tspan><tspan fill="#8b98a8" xml:space="preserve"> identity.service</tspan></text></g><g class="fade" style="animation-delay:0.60s"><text x="56" y="88" font-size="15"><tspan fill="#253345">[</tspan><tspan fill="#3dff9a">  OK  </tspan><tspan fill="#253345">]</tspan><tspan fill="#4d5b6c"> started  </tspan><tspan fill="#8b98a8" xml:space="preserve"> network.target · online · CPT</tspan></text></g><g class="fade" style="animation-delay:0.95s"><text x="56" y="112" font-size="15"><tspan fill="#253345">[</tspan><tspan fill="#3dff9a">  OK  </tspan><tspan fill="#253345">]</tspan><tspan fill="#4d5b6c"> verified </tspan><tspan fill="#8b98a8" xml:space="preserve"> mfa.challenge</tspan></text></g><g class="fade" style="animation-delay:1.30s"><text x="56" y="136" font-size="15"><tspan fill="#253345">[</tspan><tspan fill="#3dff9a">  OK  </tspan><tspan fill="#253345">]</tspan><tspan fill="#4d5b6c"> reached  </tspan><tspan fill="#8b98a8" xml:space="preserve"> target leo-os.profile</tspan></text></g>
 <g class="glitch" style="animation-delay:1.5s">
@@ -54,7 +54,7 @@
   <text x="52" y="248" font-size="104" font-weight="800" letter-spacing="-2"><tspan fill="#3dff9a">LEO</tspan><tspan fill="#b18cff">//</tspan><tspan fill="#6cc7ff">OS</tspan></text>
   <text x="52" y="248" font-size="104" font-weight="800" letter-spacing="-2" fill="url(#shine)">LEO//OS</text>
 </g>
-<text x="56" y="302" font-size="18" clip-path="url(#type)" xml:space="preserve"><tspan fill="#4d5b6c">~$ </tspan><tspan fill="#8b98a8">I keep businesses online, secure and moving.</tspan><tspan fill="#3dff9a" class="blink">▌</tspan></text>
+<text x="56" y="302" font-size="18" clip-path="url(#type)" xml:space="preserve"><tspan fill="#4d5b6c">~$ </tspan><tspan fill="#8b98a8">securing endpoints by day, shipping code by night.</tspan><tspan fill="#3dff9a" class="blink">▌</tspan></text>
 <g class="fade" style="animation-delay:4.4s">
   <circle cx="64" cy="340" r="6" fill="#3dff9a" class="ring"/><circle cx="64" cy="340" r="6" fill="#3dff9a"/>
   <text x="80" y="346" font-size="16"><tspan fill="#8b98a8">STATUS: </tspan><tspan fill="#3dff9a" font-weight="700">ONLINE</tspan><tspan fill="#4d5b6c">  ·  Leo Lennards  ·  IT Support &amp; Security  ·  Cape Town, ZA</tspan></text>

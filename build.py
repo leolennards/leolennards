@@ -114,7 +114,7 @@ def header():
   <text x="{cx - r}" y="{cy + r + 36}" font-size="12.5" fill="{FAINT}">lat −33.89 · lon 18.56 · tz SAST (UTC+2)</text>
 </g>"""
 
-    tagline = "I keep businesses online, secure and moving."
+    tagline = "securing endpoints by day, shipping code by night."
     tw = (len(tagline) + 5) * 11.4  # "~$ " prefix + cursor, generous for fallback monospace fonts
     body = f"""{frame(w, h)}
 <defs>
